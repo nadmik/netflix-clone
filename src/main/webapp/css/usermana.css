@@ -1,0 +1,74 @@
+.row {
+	margin: 5% auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.fm {
+	max-width: 500px;
+	border: 5px solid black;
+	background: white;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.rol {
+	max-width: 900px;
+	width: 80%;
+	line-height: 3em;
+	margin-left: 2em;
+	padding-left: 10px;
+}
+
+.fm input[type="text"], .fm input[type="password"] {
+	max-width: 900px;
+	width: 80%;
+	line-height: 3em;
+	margin-left: 2em;
+	border-radius: 5px;
+	border: 2px solid #f2f2f2;
+	padding-left: 10px;
+}
+
+.btn {
+	line-height: 3em;
+	margin-left: 2em;
+	padding-left: 10px;
+}
+
+.fm button {
+	height: 50px;
+	width: 100px;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: lightblue;
+	padding-left: 10px;
+}
+
+.fm button:hover {
+	background-color: orange;
+}
+
+.kq {
+	max-width: 500px;
+	border: .5px solid black;
+	background: white;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5% auto;
+	text-align: center;
+}
+
+table {
+	max-width: 500px;
+	background-color: white;
+}

@@ -1,0 +1,55 @@
+body {
+	background-image: url(intro.jpg);
+	object-fit: cover;
+	width: 100%;
+	z-index: 0;
+}
+
+.su {
+	margin: 6% auto;
+}
+
+h4 {
+	text-align: center;
+}
+
+input[type=text] {
+	width: 95%;
+	margin-left: 10px;
+}
+
+.username, .email {
+	padding-left: 10px;
+}
+
+.forgot {
+	background-color: #000000bf;
+	border: 2px solid black;
+	max-width: 500px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	margin: 2% auto;
+}
+
+.cl {
+	color: #fff;
+}
+
+.btn {
+	font-family: cursive;
+	font-size: 18px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: red;
+	border: 1px solid #f2f2f2;
+	width: 95%;
+}
+
+.btn:hover {
+	background-color: #a11313;
+}

@@ -1,0 +1,86 @@
+/* header */
+header {
+	background-image: url(intro.jpg);
+	object-fit: cover;
+	width: 100%;
+	z-index: 0;
+	background-color: #0e0e0e99;
+	min-height: 100vh;
+	padding: 0 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.intro_container {
+	margin: 1rem;
+	padding: 1.5rem;
+	color: inherit;
+	background-color: #000000bf;
+	color: white;
+	z-index: 100;
+	border-radius: 0.5rem;
+}
+
+.intro {
+	padding: 5rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro button {
+	color: #ffffff;
+	background-color: #e50914;
+	padding: 0.7rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	min-width: 20rem;
+	transition: linear 200ms ease-in-out;
+}
+
+.intro a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.intro button:hover {
+	background-color: #ad070f;
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+/*  */
+.bd {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #000000;
+	color: white;
+}
+
+.bd img, .bd video {
+	width: 100%;
+	object-fit: cover;
+}
+
+.bd-text {
+	padding: 0 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	background-color: #000000;
+}
+
+.line {
+	background-color: #2d2d2d;
+	padding-top: 0.1em;
+}

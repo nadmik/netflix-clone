@@ -1,0 +1,41 @@
+body {
+	background-image: url(intro.jpg);
+	object-fit: cover;
+	width: 100%;
+	z-index: 0;
+}
+
+.su{
+	margin-top: 4em ;
+}
+
+.form {
+	width: 100%;
+	min-height: 450px;
+	height: auto;
+	border-radius: 5px;
+	padding: 2%;
+	border-radius: 10px;
+	background-color: #000000bf;
+}
+.cl {
+	color: #fff;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.form button {
+	font-size: 18px;
+	letter-spacing: 5px;
+	width: 80%;
+	background-color: red;
+}
+
+.form button:hover {
+	background-color: #a11313;
+}
